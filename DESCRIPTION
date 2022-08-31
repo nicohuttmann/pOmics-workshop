@@ -1,0 +1,25 @@
+Package: pOmicsForWorkshop
+Type: Package
+Title: Framework for proteomics data analysis
+Version: 0.15.0
+Author: Nico Huettmann 
+Maintainer: Nico Huettmann <huttmann.nico@gmail.com>
+Description: Workshop version of pOmics: Provides a framework and functions for the analysis of proteomics data
+License: MIT
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/nicohuttmann/pOmics
+BugReports: https://github.com/nicohuttmann/pOmics/issues
+Suggests: 
+    eulerr,
+    ggvenn,
+    knitr,
+    rmarkdown 
+VignetteBuilder: knitr
+Imports:
+    reshape2,
+    rlang,
+    sticky, 
+    tidyverse,
+    vroom
+RoxygenNote: 7.2.1
